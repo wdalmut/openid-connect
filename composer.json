@@ -1,0 +1,21 @@
+{
+    "name": "wdalmut/openid-connect",
+    "require": {
+        "league/oauth2-server": "~6",
+        "league/openid-connect-claims": "~1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Corley\\OpenId\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Corley\\OpenId\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.4",
+        "zendframework/zend-diactoros": "~1"
+    }
+}
